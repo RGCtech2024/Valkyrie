@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta hhtp-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valkyrie Security Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c513615a9a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/valkyrie logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>SECURITY AGENCY</p>
+            <h1>Welcome to the Sample</br>Page of <span>Valkyrie</span></h1>
+        </div>
+
+    </div>
+</div>
+<! --------------------about-------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/VALKYRIE.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <p>Text Area Paragraph is the most flexible tool you have with a variety of typography, 
+                    image, and link styles. It makes it easy to update web pages without any knowledge of HTML.
+                    The Text Area Paragraph is the meat and potatoes Paragraph. It includes all of the options
+                    you'll need to display your text through the "Normal" menu and "Styles" menu. 
+                    You can set the different alignment of your text, add links (and style those links as buttons 
+                    or action links), add images and video, unordered or ordered lists, tables, and quotes.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('company backgrounds')">Company Backgrounds</p>
+                    <p class="tab-links" onclick="opentab('business partners')">Business Partners</p>
+                    <p class="tab-links" onclick="opentab('security trainings and programs')">Security Trainings and Programs</p>
+                    <p class="tab-links" onclick="opentab('security equipments')">Security Equipments</p>
+                    <p class="tab-links" onclick="opentab('security standard protocol')">Security Standard Protocol</p>
+                </div>
+                <div class="tab-contents active-tab" id="company backgrounds">
+                    <ul>
+                        <li><span>Sample1</span><br>Sample</li>
+                        <li><span>Sample2</span><br>Sample</li>
+                        <li><span>Sample3</span><br>Sample</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="business partners">
+                    <ul>
+                        <li><span>Sample5</span><br>Sample</li>
+                        <li><span>Sample6</span><br>Sample</li>
+                        <li><span>Sample7</span><br>Sample</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="security trainings and programs">
+                    <ul>
+                        <li><span>Sample8</span><br>Sample</li>
+                        <li><span>Sample9</span><br>Sample</li>
+                        <li><span>Sample10</span><br>Sample</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="security equipments">
+                    <ul>
+                        <li><span>Sample11</span><br>Sample</li>
+                        <li><span>Sample12</span><br>Sample</li>
+                        <li><span>Sample13</span><br>Sample</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="security standard protocol">
+                    <ul>
+                        <li><span>Sample14</span><br>Sample</li>
+                        <li><span>Sample15</span><br>Sample</li>
+                        <li><span>Sample16</span><br>Sample</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!----------------------services-------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services Offered</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-person-shelter"></i>
+                <h2>Personal Security</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nulla ut ipsum a urna congue tincidunt. 
+                    Donec vel nisi pretium nunc rhoncus convallis vel nec ex. 
+                    In dolor purus, sodales ac hendrerit et, commodo id dui. Nam ut dolor a mi cursus dignissim. 
+                    Proin vitae sem sit amet nulla mattis volutpat. Quisque ultrices nisl eros, sit amet rhoncus risus lobortis sit amet. 
+                    Praesent dolor sem, condimentum quis mollis quis, laoreet at sapien. Vivamus bibendum augue dolor, eget lacinia lacus facilisis quis. 
+                    Fusce vestibulum varius diam vel ultrices. Vestibulum tortor est, accumsan vel scelerisque at, placerat a dui.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-secret"></i>
+                <h2>Family Security</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nulla ut ipsum a urna congue tincidunt. 
+                    Donec vel nisi pretium nunc rhoncus convallis vel nec ex. 
+                    In dolor purus, sodales ac hendrerit et, commodo id dui. Nam ut dolor a mi cursus dignissim. 
+                    Proin vitae sem sit amet nulla mattis volutpat. Quisque ultrices nisl eros, sit amet rhoncus risus lobortis sit amet. 
+                    Praesent dolor sem, condimentum quis mollis quis, laoreet at sapien. Vivamus bibendum augue dolor, eget lacinia lacus facilisis quis. 
+                    Fusce vestibulum varius diam vel ultrices. Vestibulum tortor est, accumsan vel scelerisque at, placerat a dui.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-building-shield"></i>
+                <h2>Commercial Security</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nulla ut ipsum a urna congue tincidunt. 
+                    Donec vel nisi pretium nunc rhoncus convallis vel nec ex. 
+                    In dolor purus, sodales ac hendrerit et, commodo id dui. Nam ut dolor a mi cursus dignissim. 
+                    Proin vitae sem sit amet nulla mattis volutpat. Quisque ultrices nisl eros, sit amet rhoncus risus lobortis sit amet. 
+                    Praesent dolor sem, condimentum quis mollis quis, laoreet at sapien. Vivamus bibendum augue dolor, eget lacinia lacus facilisis quis. 
+                    Fusce vestibulum varius diam vel ultrices. Vestibulum tortor est, accumsan vel scelerisque at, placerat a dui.</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Our Mission and Vision</h1>
+        <div class="missionandvision-list">
+            <div class="mission">
+                <img src="Images/leveraging cutting-edge technology .png"></br>
+                <div class="layer">
+                    <h3>Leveraging cutting edge Technology</h3></br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nulla ut ipsum a urna congue tincidunt. 
+                        Donec vel nisi pretium nunc rhoncus convallis vel nec ex. 
+                        In dolor purus, sodales ac hendrerit et, commodo id dui. Nam ut dolor a mi cursus dignissim. 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="mission">
+                <img src="Images/professional-security .png"></br>
+                <div class="layer">
+                    <h3>Security Professionalism</h3></br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nulla ut ipsum a urna congue tincidunt. 
+                        Donec vel nisi pretium nunc rhoncus convallis vel nec ex. 
+                        In dolor purus, sodales ac hendrerit et, commodo id dui. Nam ut dolor a mi cursus dignissim. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="mission">
+                <img src="Images/Commercial Sec .png"></br>
+                <div class="layer">
+                    <h3>Industrial Security</h3></br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nulla ut ipsum a urna congue tincidunt. 
+                        Donec vel nisi pretium nunc rhoncus convallis vel nec ex. 
+                        In dolor purus, sodales ac hendrerit et, commodo id dui. Nam ut dolor a mi cursus dignissim. 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+                
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!------------------------contact------------------------>
+<div id="contact"></div>
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09602710443</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>   
+                <a href="Images/New-Application-Form-2020-and-Requirements-.pdf" download class="btn btn2">Download File</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Messages" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ <i class="fa-solid fa-medal"></i>RGCtech 2024 Sample template for Valykyrie</p>
+        </div>
+    </div>
+        
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu= document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxuS6pFbSmxpWVjVUNbRn8OCiQJNr-vARe2iFOdFd8bPE3pO5UXGLD8sVnvKYZoLits/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = " Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))  
+    })
+  </script>
+</body>
+</html>
